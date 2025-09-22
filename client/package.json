@@ -5,10 +5,14 @@
   "version": "1.0.0",
   "description": "3D Clothing Store with Three.js and React",
   "homepage": "https://ghaithzoaiter.github.io/Clothes_Shop3D",
+
+
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@react-three/drei": "^9.58.5",
